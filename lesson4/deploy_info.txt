@@ -1,0 +1,27 @@
+1. Подключение к удалённому хостингу
+ssh root@45.135.234.66
+2. Сразу при одключении к хосту обновляем систему
+apt update
+apt upgrade
+3. Докер
+snap install docker /// apt  install docker-compose
+docker-compose up --build
+docker-compose stop
+4. Подключение к pgAdmin
+45.135.234.66:8080/login
+test@test.by root
+5. Подключение к postres
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      host: 45.135.234.66
+      db_name: postgres
+6. Установка зависимостей
+apt-get install python3-psycopg2
+apt install python3-pip
+pip3 install pyTelegramBotAPI
+https://stackoverflow.com/questions/11583714/install-psycopg2-on-ubuntu
+pip3 install psycopg2
+7. Запуск бота на сервере
+nohup python3 tg_bot.py &
+sudo ps aux | grep python
+kill 145812
