@@ -1,6 +1,6 @@
 1. Подключение к удалённому хостингу
 ssh root@45.135.234.66
-2. Сразу при одключении к хосту обновляем систему
+2. Сразу при подключении к хосту обновляем систему
 apt update
 apt upgrade
 3. Докер
@@ -10,7 +10,7 @@ docker-compose stop
 4. Подключение к pgAdmin
 45.135.234.66:8080/login
 test@test.by root
-5. Подключение к postres
+5. Подключение к postgres
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
       host: 45.135.234.66
