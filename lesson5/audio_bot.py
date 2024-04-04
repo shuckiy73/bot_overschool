@@ -10,7 +10,7 @@ from gtts import gTTS
 from deep_translator import GoogleTranslator
 
 
-bot = Bot(token="7055950109:AAGwHKJyfBYUChynWRweTRAF9AK9xUAPH30")
+bot = Bot(token="your token")
 dp = Dispatcher(bot)
 
 
