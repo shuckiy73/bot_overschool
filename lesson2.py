@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot("7055950109:AAGwHKJyfBYUChynWRweTRAF9AK9xUAPH30", parse_mode='HTML')
+bot = telebot.TeleBot("your token", parse_mode='HTML')
 
 
 @bot.message_handler(commands=['start'])
