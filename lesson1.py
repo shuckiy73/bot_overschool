@@ -3,7 +3,7 @@
 
 import telebot
 
-bot = telebot.TeleBot("7055950109:AAGwHKJyfBYUChynWRweTRAF9AK9xUAPH30", parser_mode=None)
+bot = telebot.TeleBot("your token", parser_mode=None)
 
 
 @bot.message_handler(func=lambda m: True)
